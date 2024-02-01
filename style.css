@@ -50,10 +50,14 @@ body {
 .apresentacao__links__subtitulo {
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
+    font-size: 24px;
 }
 
 .apresentacao__links__link {
     /* background-color: #87A330; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #87A330;
     width: 378px;
     text-align:center;
@@ -64,4 +68,12 @@ body {
     text-decoration: none;
     color: #CAD593;
     font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #A1C349;
+}
+
+.rodape {
+
 }
