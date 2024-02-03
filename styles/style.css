@@ -121,7 +121,7 @@ body {
         padding: 10%;
     }
 
-    .cabecalho__menu {
+    .cabecalhomenu {
         justify-content: center;
     }
 
@@ -130,8 +130,21 @@ body {
         padding: 5%;
     }
 
-    .apresentacao__conteudo {
+    .apresentacaoconteudo {
         width: auto;
     }
-    
+
+    .rodape {
+        color: var(--cor-primaira);
+        background-color: var(--cor-terciaria);
+        padding: 24px;
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-size: 1.5rem;
+        font-weight: 400;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+
+}
 }
