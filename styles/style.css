@@ -170,10 +170,10 @@ body {
 
 }
 
-@media (min-height: 1200px) {
+@media (min-height: 1000px) {
     .rodape {
         width: auto;
         font-size: 1rem;
-        margin: 23rem 0 0 0;
+        margin: 30rem 0 0 0;
     }
 }
