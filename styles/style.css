@@ -166,7 +166,14 @@ body {
     .rodape {
         font-size: 1rem;
         margin: 10rem 0 0 0;
-        border: solid 1px transparent;
     }
 
+}
+
+@media (min-height: 1200px) {
+    .rodape {
+        width: auto;
+        font-size: 1rem;
+        margin: 23rem 0 0 0;
+    }
 }
